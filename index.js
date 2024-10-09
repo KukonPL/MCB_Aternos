@@ -13,7 +13,7 @@ const botArgs = {
 
 let bot;
 let retryCount = 0;
-const maxRetries = 500; // Maximum number of retries in case of disconnections
+const maxRetries = 500000; // Maximum number of retries in case of disconnections
 
 // Initialize and reconnect the bot
 const initBot = () => {
